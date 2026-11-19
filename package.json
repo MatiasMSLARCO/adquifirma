@@ -1,0 +1,23 @@
+{
+  "name": "adquirafirma-sitio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web oficial y API serverless de ADQUIRA S.A.S. - Firma jurídica especializada en Contratación Pública en Ecuador",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "adquira",
+    "contratacion-publica",
+    "ecuador",
+    "derecho-administrativo",
+    "sercop"
+  ],
+  "author": "ADQUIRA S.A.S.",
+  "license": "UNLICENSED"
+}

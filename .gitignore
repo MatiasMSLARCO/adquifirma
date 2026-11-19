@@ -1,15 +1,15 @@
-# macOS
+# Variables de entorno y credenciales (NUNCA versionar)
+.env
+.env*.local
+
+# Dependencias y temporales del sistema
+node_modules/
 .DS_Store
-__MACOSX/
-._*
-
-# Windows
 Thumbs.db
-Desktop.ini
+*.log
 
-# Editores
-.vscode/
-.idea/
+# Scripts de pruebas y archivos de scratch locales
+scratch/
 
-# Documentos internos (no publicar)
-docs/
+# Vercel CLI cache
+.vercel/
